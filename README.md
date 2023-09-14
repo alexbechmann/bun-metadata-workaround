@@ -2,6 +2,8 @@
 
 Example bun app with workaround to make tsyringe work using fork of esbuild-plugin-tsc to compile any files with decorators with tsc.
 
+Fixed plugin is located `./plugins/esbuild-plugin-tsc/index.ts`
+
 Due to issue with bun --watch and --hot not working with plugins, this project uses nodemon for hot reloading.
 
 To install dependencies:
