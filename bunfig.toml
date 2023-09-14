@@ -1,1 +1,1 @@
-preload = ["./plugins/metadataFixPlugin.ts"]
+preload = ["./plugins/plugin.ts"]

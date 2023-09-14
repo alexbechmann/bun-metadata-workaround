@@ -1,9 +1,8 @@
-import "reflect-metadata";
-import { singleton } from "tsyringe";
+import { injectable } from "tsyringe";
 
-@singleton()
+@injectable()
 export class Greeter {
   greet() {
-    console.log("Hello");
+    console.log("Hello!");
   }
 }

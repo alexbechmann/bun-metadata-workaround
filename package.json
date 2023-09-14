@@ -1,13 +1,12 @@
 {
   "dependencies": {
-    "@abraham/reflection": "^0.12.0",
-    "@anatine/esbuild-decorators": "^0.2.19",
     "core-js": "^3.32.2",
-    "esbuild-plugin-tsc": "^0.4.0",
     "reflect-metadata": "^0.1.13",
+    "strip-comments": "^2.0.1",
     "tsyringe": "^4.8.0"
   },
   "devDependencies": {
+    "@types/strip-comments": "^2.0.1",
     "bun-types": "^1.0.1",
     "nodemon": "^3.0.1",
     "typescript": "^5.2.2"

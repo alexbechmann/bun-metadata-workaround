@@ -1,8 +1,7 @@
-import "reflect-metadata";
-import { singleton } from "tsyringe";
+import { injectable } from "tsyringe";
 import { Greeter } from "./Greeter";
 
-@singleton()
+@injectable()
 export class Runner {
   constructor(private greeter: Greeter) {}
 
